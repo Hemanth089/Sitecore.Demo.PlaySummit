@@ -1,0 +1,36 @@
+{
+    "namespace": "EdgeWebsiteCMP",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "cmp-templates",
+                "path": "/sitecore/templates/CMP"
+            },
+            {
+                "name": "cmp-module",
+                "path": "/sitecore/system/Modules/CMP",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "cmp-module-config",
+                "path": "/sitecore/system/Modules/CMP/Config",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "dam-module",
+                "path": "/sitecore/system/Modules/DAM",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "dam-module-config",
+                "path": "/sitecore/system/Modules/DAM/Config",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            }
+        ]
+    }
+}
