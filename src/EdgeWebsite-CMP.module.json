@@ -12,13 +12,7 @@
                 "path": "/sitecore/system/Modules/CMP",
                 "scope": "singleItem",
                 "allowedPushOperations": "createAndUpdate"
-            },
-            {
-                "name": "cmp-module-config",
-                "path": "/sitecore/system/Modules/CMP/Config",
-                "scope": "singleItem",
-                "allowedPushOperations": "createAndUpdate"
-            },
+            },           
             {
                 "name": "dam-module",
                 "path": "/sitecore/system/Modules/DAM",
